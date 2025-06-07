@@ -51,7 +51,7 @@ function About() {
       {/* <FluffyCloud /> */}
       <h1
         style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }}
-        className="pt-20"
+        className="pt-2"
       >
         Company Description
       </h1>

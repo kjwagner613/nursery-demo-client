@@ -101,7 +101,7 @@ const ProductForm = ({ onProductAdded = () => { } }) => {
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="grid grid-cols-1 max-w-[1300px] mx-auto px-[10vw]">
-        <h1 className="pt-20">Add a Product </h1>
+        <h1 className="pt-2">Add a Product </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-9">
           <input
             type="text"

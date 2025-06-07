@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-2">
       <h1
         style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }}
         className=""

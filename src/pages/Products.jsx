@@ -138,7 +138,7 @@ const Products = () => {
 
   return (
     <div>
-      <h1 style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }} className="pt-20">
+      <h1 style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }} className="pt-2">
         Product Gallery
       </h1>
 

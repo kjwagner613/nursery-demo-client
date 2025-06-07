@@ -5,8 +5,8 @@ import landscape2 from "../assets/images/landscape2.jpg";
 
 const Services = () => {
   return (
-    <>     
-      <h1 style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }} className="pt-20">
+    <>
+      <h1 style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }} className="pt-2">
         Services
       </h1>
       <div className="grid grid-cols-3 gap-4">
@@ -39,7 +39,7 @@ const Services = () => {
             <img src={landscape2} alt="Second Image" className="w-full h-auto rounded-lg my-10" />
           </div>
         </div>
-      </div>  
+      </div>
     </>
   );
 };
