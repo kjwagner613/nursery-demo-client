@@ -4,7 +4,7 @@
 :root {
   --primary-green: #6B8E23;
   --secondary-brown: #8B4513;
-  --background-color: #abc9e8;
+  --background-color: #c8d8e9;
   --text-color-dark: #213547;
   --text-color-light: #e6e9bf;
   --highlight-color-1: rgb(60, 78, 178);
@@ -56,6 +56,13 @@ a:hover {
 
 body {
   background-color: var(--background-color);
+  max-width: 1300px;
+  margin: auto;
+  padding: 28px;
+  display: grid;
+  grid-template-columns: 1fr;
+  border:   2px solid var(--text-color-dark);
+  border-radius: var(--border-radius);
 }
 
 .about-images img {
