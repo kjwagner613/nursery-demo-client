@@ -48,7 +48,7 @@ const Dashboard = () => {
 
   return (
     <div>
-      <h1 className="pt-20">Dashboard</h1>
+      <h1 className="pt-2">Dashboard</h1>
       <h2 className="mb-4"> {user?.first}</h2>
       <h2 className="mb-4">Hello {useContext(UserContext)?.first}</h2>
       {loading && <p>Loading weather...</p>}
