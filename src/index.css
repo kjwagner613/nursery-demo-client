@@ -4,7 +4,7 @@
 :root {
   --primary-green: #6B8E23;
   --secondary-brown: #8B4513;
-  --background-cream: #e2c77e;
+  --background-color: #00B5E2;
   --text-color-dark: #213547;
   --text-color-light: #e6e9bf;
   --highlight-color-1: rgb(60, 78, 178);
@@ -21,7 +21,7 @@ a:hover {
 /* Responsive Light/Dark Mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-cream: #242424;
+    --background: #242424;
     --text-color-dark: var(--text-color-light);
   }
 } 
@@ -54,6 +54,9 @@ a:hover {
   border-radius: 8px;
 }
 
+body {
+  background-color: var(--background-color);
+}
 
 .about-images img {
    border-radius: 8px; /* optional, for rounded corners */
