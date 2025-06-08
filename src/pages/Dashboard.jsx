@@ -71,6 +71,7 @@ const Dashboard = () => {
                 }}
               >
                 <h2>{weather.name}</h2>
+
                 {current ? (
                   <div>
                     <div style={{ fontSize: 32, fontWeight: "bold" }}>
@@ -81,7 +82,9 @@ const Dashboard = () => {
                     <div>Daytime: {current.is_day ? "Yes" : "No"}</div>
                   </div>
                 ) : (
-                  <div>No current weather data available.</div>
+                  <>
+                    <div>No current weather data available.</div>
+                  </>
                 )}
                 {daily && (
                   <div style={{ marginTop: 16 }}>

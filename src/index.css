@@ -39,6 +39,35 @@ a:hover {
   position: relative;
 
 }
+.cloud {
+  will-change: transform;
+}
+
+
+.cloud {
+  width:355px;
+  height: 200px;
+  background-image: url('../images/cloud-1.png');
+  position: absolute;
+  top: 20%;
+  left: -800px; /* Start off-screen */
+  animation: moveCloud 10s cubic-bezier(.15,.53,.32,.71) infinite;
+  z-index: 20;
+  background-color: red;
+}
+
+@keyframes moveCloud {
+  from {
+    left: -1200px;
+    opacity: 0.8;
+  }
+  to {
+    left: 1000px;
+    opacity: 1;
+  }
+}
+
+
 /* Add to index.css */
 .about-images {
   display: flex;

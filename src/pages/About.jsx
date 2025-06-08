@@ -48,17 +48,16 @@ import workersImg3 from '../assets/images/worker3.webp';
 function About() {
   return (
     <div>
-      {/* <FluffyCloud /> */}
       <h1
         style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }}
         className="pt-2"
       >
         Company Description
       </h1>
-      {/* <SunMoon /> */}
+      {/* <div className="cloud"></div> */}
       <div className="about-company">
         <p className="self-stretc text-justify">
-          At Sierra-Cascade Nursery, Inc. (SCN), our core purpose is to provide meaningful livelihoods for talented and hardworking individuals and their families. We are dedicated to serving our customers with high-quality products while stewarding the land in a way that is both beautiful and sustainable.
+          At SC Nursery, Inc. (SCN), our core purpose is to provide meaningful livelihoods for talented and hardworking individuals and their families. We are dedicated to serving our customers with high-quality products while stewarding the land in a way that is both beautiful and sustainable.
           SCN is built on three fundamental values:
           - Work & Life Balance – Supporting our employees as they strive for both professional excellence and personal well-being.
           - Mutual Respect & Community – Fostering a collaborative environment that values fairness, teamwork, and shared success.
@@ -71,8 +70,7 @@ function About() {
         </p>
 
       </div>
-      {/* <FluffyCloud /> */}
-      <div className="about-images mt-15">
+        <div className="about-images mt-15">
 
         <img className="worker2" style={{ marginTop: '60px' }} src={workersImg2} alt="Worker2" />
         <img className="workers" style={{ marginTop: '30px' }} src={workersImg} alt="Workers" />

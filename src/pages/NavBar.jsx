@@ -12,7 +12,7 @@ const NavBar = () => {
     setUser(null); // ✅ Clears user state
   };
 
-  
+
 
 
   return (
@@ -31,7 +31,7 @@ const NavBar = () => {
           </ul>
         </>
       ) : (
-        <ul className="nav-links">
+        <ul className="nav-links fixed top-0 inset-x-0 z-50 text-gray-200 bg-[#2a3950] py-8 mb-4 h-14 flex items-center">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/pages/loginpage">Login</Link></li>
           <li><Link to="/pages/registerpage">Register</Link></li>
