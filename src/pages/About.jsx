@@ -54,7 +54,7 @@ function About() {
       >
         Company Description
       </h1>
-      {/* <div className="cloud"></div> */}
+      <div className="cloud"></div>
       <div className="about-company">
         <p className="self-stretc text-justify">
           At SC Nursery, Inc. (SCN), our core purpose is to provide meaningful livelihoods for talented and hardworking individuals and their families. We are dedicated to serving our customers with high-quality products while stewarding the land in a way that is both beautiful and sustainable.
@@ -70,7 +70,7 @@ function About() {
         </p>
 
       </div>
-        <div className="about-images mt-15">
+      <div className="about-images mt-15">
 
         <img className="worker2" style={{ marginTop: '60px' }} src={workersImg2} alt="Worker2" />
         <img className="workers" style={{ marginTop: '30px' }} src={workersImg} alt="Workers" />
