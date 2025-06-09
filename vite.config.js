@@ -1,11 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [
-    tailwindcss(),
-    react() // Add both plugins inside a single `defineConfig`
+    react() // No Tailwind plugin needed here
   ],
   server: {
     proxy: {

@@ -1,15 +1,11 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {
-      colors: {
-        background: "#F3F4F6", // Light gray background
-      },
-    },
-
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
   },
-  plugins: [],
 };
+
+
 // This is a Tailwind CSS configuration file that specifies the content sources
 // for purging unused styles and extends the default theme with custom styles.
 // It includes the main HTML file and all JavaScript/TypeScript files in the src directory.
