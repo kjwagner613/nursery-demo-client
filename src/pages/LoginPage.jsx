@@ -48,6 +48,7 @@ const LoginPage = () => {
 
   return (
 <>
+  <div className="Body bg-blue-500"></div>
   <h2 className="loginpage" style={{ fontFamily: "Playfair Display", fontSize: "21px" }}>Login  Page</h2>
   <div className="auth-container">
     {error && <p className="error">{error}</p>}
