@@ -47,7 +47,7 @@ const Dashboard = () => {
   }, []);
 
   return (
-    <div>
+    <div className="Body bg-gray-300">
       <h1 className="pt-2">Dashboard</h1>
       <div className="cloud"></div>
       <h2 className="mb-4"> {user?.first}</h2>
