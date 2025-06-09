@@ -53,11 +53,11 @@ const LoginPage = () => {
     {error && <p className="error">{error}</p>}
         <form onSubmit={handleSubmit}>
           <div className="login-grid flex items-center justify-center gap-4 border-2 border-[color:var(--secondary-brown)]">
-            <div className="login-item grid grid-cols-1 gap-y-2 rounded-[var(--border-radius)] border-[3px] border-[color:var(--secondary-brown)] p-[6px] -m-[6px]">
+            <div className="login-item grid grid-cols-1 gap-y-2 rounded-[var(--border-radius)] border-[3px] border-[color:var(--border-color)] p-[6px] -m-[6px]">
               <label htmlFor="email">Email</label>
               <input type="email" id="email" name="email" placeholder="Email" onChange={handleChange} required />
             </div>
-            <div className="login-item rounded-[var(--border-radius)] border-[3px] border-[color:var(--secondary-brown)] p-[6px] -m-[6px]">
+            <div className="login-item rounded-[var(--border-radius)] border-[3px] border-[3px] border-[color:var(--border-color)] p-[6px] -m-[6px]">
               <label htmlFor="password">Password</label>
               <input type="password" id="password" name="password" placeholder="Password" onChange={handleChange} required />
             </div>
