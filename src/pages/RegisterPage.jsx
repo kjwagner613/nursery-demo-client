@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AuthContext from "../context/AuthContext";
 import { useContext } from "react";
+import "../index.css"; 
+
 
 const API_URL = import.meta.env.VITE_API_URL; // ✅ Gets backend URL from .env
 

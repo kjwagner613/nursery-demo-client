@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import AuthContext from "../context/AuthContext";
 import UserContext from "../context/UserContext";
+import "../index.css"; 
+
 
 const apiUrl = import.meta.env.VITE_API_URL;
 

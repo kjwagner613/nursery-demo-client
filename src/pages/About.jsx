@@ -2,6 +2,7 @@ import React from 'react';
 import '../index.css';
 import workersImg from '../assets/images/workers.png';
 import workersImg2 from '../assets/images/worker2.webp';
+
 import workersImg3 from '../assets/images/worker3.webp';
 // import FluffyCloud from '../components/FluffyCloud';
 // import CloudGroup from '../components/CloudGroup';

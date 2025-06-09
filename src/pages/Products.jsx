@@ -1,7 +1,10 @@
 import { useState, useEffect, useContext } from "react";
 import FlipDeckGallery from "../components/FlipDeckGallery"; // Use new flip deck gallery
 import AuthContext from "../context/AuthContext";
+import "../index.css"; 
 const BASE_URL = import.meta.env.VITE_API_URL;
+
+
 
 // Define category data globally
 const categoryData = {
