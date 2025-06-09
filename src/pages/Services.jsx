@@ -6,9 +6,7 @@ import landscape2 from "../assets/images/landscape2.jpg";
 const Services = () => {
   return (
     <>
-      <h1 style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }} className="pt-2">
-        Services
-      </h1>
+      <h2 className="loginpage" style={{ fontFamily: "Playfair Display", fontSize: "41px", color: "white" }}>Services Offered</h2>
       <div className="grid grid-cols-3 gap-4">
         <div className="flex flex-col justify-center items-center">
           <img src={planting1} alt="First Image" className="w-full h-auto rounded-lg mt-2" />

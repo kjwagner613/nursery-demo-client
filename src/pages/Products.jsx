@@ -141,9 +141,7 @@ const Products = () => {
 
   return (
     <div>
-      <h1 style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }} className="pt-2">
-        Product Gallery
-      </h1>
+      <h2 className="loginpage" style={{ fontFamily: "Playfair Display", fontSize: "41px", color: "white" }}>Product Gallery</h2>
 
       <CategoryFilter setSelectedCategory={setSelectedCategory} categoryData={categoryData} />
 

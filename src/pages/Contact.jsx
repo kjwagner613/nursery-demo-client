@@ -1,15 +1,10 @@
 import React from 'react';
-import "../index.css"; 
+import "../index.css";
 
 const Contact = () => {
   return (
-    <div className="pt-2">
-      <h1
-        style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }}
-        className=""
-      >
-        Contact Us
-      </h1>
+    <div className="">
+      <h2 className="loginpage" style={{ fontFamily: "Playfair Display", fontSize: "41px", color: "white" }}>Contact Us</h2>
       <div className="contact-container flex gap-20 justify-center self-center mt-[15px] border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-8">
         <div className="contactInfo flex flex-col items-center mt-[15px] border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 leading-snug text-s">
           <h2>Tuleleke Nursery</h2>

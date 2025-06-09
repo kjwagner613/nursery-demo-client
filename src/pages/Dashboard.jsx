@@ -48,7 +48,7 @@ const Dashboard = () => {
 
   return (
     <div className="">
-      <h1 className="pt-2">Dashboard</h1>
+      <h2 className="loginpage" style={{ fontFamily: "Playfair Display", fontSize: "41px", color: "white" }}>Dashboard</h2>
       <div className="cloud"></div>
       <h2 className="mb-4"> {user?.first}</h2>
       <h2 className="mb-4">Hello {useContext(UserContext)?.first}</h2>

@@ -49,12 +49,7 @@ import workersImg3 from '../assets/images/worker3.webp';
 function About() {
   return (
     <div>
-      <h1
-        style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }}
-        className="pt-2"
-      >
-        Company Description
-      </h1>
+      <h2 className="loginpage" style={{ fontFamily: "Playfair Display", fontSize: "41px", color: "white" }}>Company Description</h2>
       <div className="cloud"></div>
       <div className="about-company">
         <p className="self-stretc text-justify">
