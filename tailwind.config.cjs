@@ -1,20 +1,16 @@
 module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-    content: [
-      "./src/**/*.{js,jsx,ts,tsx}", // Adjust if your source files are elsewhere
-    ],
-    theme: {
-      extend: {
-        colors: {
-          'nursery-bg': '#8aa8c9', // Your custom color
-        },
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'nursery-bg': '#8aa8c9',
       },
     },
-    plugins: [],
-  };
-
+  },
+  plugins: [],
+};
 
 // This is a Tailwind CSS configuration file that specifies the content sources
 // for purging unused styles and extends the default theme with custom styles.
