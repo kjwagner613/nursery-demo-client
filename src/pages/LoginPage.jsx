@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import AuthContext from "../context/AuthContext";
 import UserContext from "../context/UserContext";
-import "../index.css"; 
+import "../index.css";
 
 
 const apiUrl = import.meta.env.VITE_API_URL;
@@ -47,14 +47,14 @@ const LoginPage = () => {
   };
 
   return (
-<>
-  <div className="Body bg-gray-300"></div>
-  <h2 className="loginpage" style={{ fontFamily: "Playfair Display", fontSize: "21px" }}>Login  Page</h2>
-  <div className="auth-container">
-    {error && <p className="error">{error}</p>}
+    <>
+      <div className="Body bg-gray-300"></div>
+      <h2 className="loginpage" style={{ fontFamily: "Playfair Display", fontSize: "21px" }}>Login  Page</h2>
+      <div className="auth-container">
+        {error && <p className="error">{error}</p>}
         <form onSubmit={handleSubmit}>
-          <div className="login-grid flex items-center justify-center gap-4 border-2 border-[color:var(--secondary-brown)]">
-            <div className="login-item grid grid-cols-1 gap-y-2 rounded-[var(--border-radius)] border-[3px] border-[color:var(--border-color)] p-[6px] -m-[6px]">
+          <div className="login-grid flex items-center justify-center gap-4 border-2 border-gray-600 rounded-lg">
+            <div className="login-item grid grid-cols-1 gap-y-2 border-2 border-gray-600 rounded-lg p-[6px] -m-[6px]">
               <label htmlFor="email">Email</label>
               <input type="email" id="email" name="email" placeholder="Email" onChange={handleChange} required />
             </div>

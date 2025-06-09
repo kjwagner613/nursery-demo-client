@@ -2,8 +2,18 @@ module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
-  },
-};
+    content: [
+      "./src/**/*.{js,jsx,ts,tsx}", // Adjust if your source files are elsewhere
+    ],
+    theme: {
+      extend: {
+        colors: {
+          'nursery-bg': '#8aa8c9', // Your custom color
+        },
+      },
+    },
+    plugins: [],
+  };
 
 
 // This is a Tailwind CSS configuration file that specifies the content sources

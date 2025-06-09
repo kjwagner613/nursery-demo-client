@@ -21,7 +21,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center Body bg-gray-300">
           <h3 className="text-gray-700 text-2xl my-3 mt-6" style={{ fontFamily: "Playfair Display" }}>
             Landscaping and Maintenance
           </h3>

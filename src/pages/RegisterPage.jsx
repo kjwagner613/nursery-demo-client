@@ -44,7 +44,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="auth-container flex items-center mt-[15px] border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4">
+    <div className="auth-container flex items-center mt-[15px] border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 Body bg-gray-300">
       <h2>Register</h2>
       {error && <p className="error">{error}</p>}
       <form className="formSubmit grid grid-cols-3 gap-2 items-center mt-[15px] border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4" onSubmit={handleSubmit}>

@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import FlipDeckGallery from "../components/FlipDeckGallery"; // Use new flip deck gallery
 import AuthContext from "../context/AuthContext";
-import "../index.css"; 
+import "../index.css";
 const BASE_URL = import.meta.env.VITE_API_URL;
 
 
@@ -141,7 +141,7 @@ const Products = () => {
 
   return (
     <div>
-      <h1 style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }} className="pt-2">
+      <h1 style={{ fontFamily: 'var(--font-main)', fontSize: 'var(--font-size-titles)' }} className="pt-2 Body bg-gray-300">
         Product Gallery
       </h1>
 
