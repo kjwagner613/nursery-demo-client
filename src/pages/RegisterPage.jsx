@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AuthContext from "../context/AuthContext";
 import { useContext } from "react";
-import "../index.css"; 
+import "../index.css";
 
 
 const API_URL = import.meta.env.VITE_API_URL; // ✅ Gets backend URL from .env
@@ -44,20 +44,21 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="auth-container flex items-center mt-[15px] border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 Body bg-gray-300">
-      <h2>Register</h2>
-      {error && <p className="error">{error}</p>}
-      <form className="formSubmit grid grid-cols-3 gap-2 items-center mt-[15px] border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4" onSubmit={handleSubmit}>
-        <input className="inputFirstName border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4" type="text" name="firstName" placeholder="First Name" onChange={handleChange} required />
-        <input className="inputLastName border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 ml-2" type="text" name="lastName" placeholder="Last Name" onChange={handleChange} required />
-        <input className="inputEmail border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 ml-2" type="email" name="email" placeholder="Email" onChange={handleChange} required />
-        <input className="inputPassword border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4" type="password" name="password" placeholder="Password" onChange={handleChange} required />
-        <input className="inputConfirmPass border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 ml-2" type="password" name="confirmPassword" placeholder="Confirm Password" onChange={handleChange} required />
-        <button type="submit">Register</button>
-      </form>
-
-      <p>Already have an account? <a href="/pages/loginpage">Login</a></p>
-    </div>
+    <>
+      <h2 className="loginpage" style={{ fontFamily: "Playfair Display", fontSize: "41px", color: "white" }}>Register</h2>
+      <div className="auth-container flex items-center border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] ">
+        {error && <p className="error">{error}</p>}
+        <form className="formSubmit grid grid-cols-3 gap-2 items-center mt-[15px] border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4" onSubmit={handleSubmit}>
+          <input className="inputFirstName border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4" type="text" name="firstName" placeholder="First Name" onChange={handleChange} required />
+          <input className="inputLastName border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 ml-2" type="text" name="lastName" placeholder="Last Name" onChange={handleChange} required />
+          <input className="inputEmail border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 ml-2" type="email" name="email" placeholder="Email" onChange={handleChange} required />
+          <input className="inputPassword border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4" type="password" name="password" placeholder="Password" onChange={handleChange} required />
+          <input className="inputConfirmPass border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 ml-2" type="password" name="confirmPassword" placeholder="Confirm Password" onChange={handleChange} required />
+          <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="/pages/loginpage">Login</a></p>
+      </div>
+    </>
   );
 };
 
