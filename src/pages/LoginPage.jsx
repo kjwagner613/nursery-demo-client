@@ -52,7 +52,7 @@ const LoginPage = () => {
   <div className="auth-container">
     {error && <p className="error">{error}</p>}
         <form onSubmit={handleSubmit}>
-          <div className="login-grid flex items-center justify-center gap-4">
+          <div className="login-grid flex items-center justify-center gap-4 border-2 border-[color:var(--secondary-brown)]">
             <div className="login-item grid grid-cols-1 gap-y-2 rounded-[var(--border-radius)] border-[3px] border-[color:var(--secondary-brown)] p-[6px] -m-[6px]">
               <label htmlFor="email">Email</label>
               <input type="email" id="email" name="email" placeholder="Email" onChange={handleChange} required />
