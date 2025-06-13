@@ -164,7 +164,7 @@ const Products = () => {
         <div className="flex flex-row justify-between gap-8 mt-8 w-full">
           {/* Left column: Product info and navigation */}
           <div className="flex flex-col items-start border-2 border-green-900 rounded-lg p-6"
-            style={{ background: "#e6e9bf", width: "350px", }}>
+            style={{ background: "var(--frame-color-light)", width: "350px" }}>
             {filteredProducts.length > 0 && (
               <>
                 <h2>{filteredProducts[currentProductIndex].name}</h2>
@@ -192,7 +192,7 @@ const Products = () => {
 
           {/* Right column: FlipDeckGallery */}
           <div className="flex flex-col items-center justify-center self-center border-2"
-            style={{ background: "#e6e9bf", width: "350px", paddingLeft: 8 }}>
+           style={{ background: "var(--frame-color-light)", width: "350px", paddingLeft: 8 }}>
             <FlipDeckGallery products={filteredProducts} currentProductIndex={currentProductIndex}
               setCurrentProductIndex={setCurrentProductIndex} currentImageIndex={currentImageIndex}
               setCurrentImageIndex={setCurrentImageIndex} />

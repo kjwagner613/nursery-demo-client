@@ -5,6 +5,7 @@
   --primary-green: #6B8E23;
   --secondary-brown: #8B4513;
   --background-color: #8aa8c9;
+  --frame-color-light: #d1d5dc;
   --text-color-dark: #213547;
   --text-color-light: #e6e9bf;
   --highlight-color-1: rgb(60, 78, 178);
@@ -343,16 +344,17 @@ h2 {
   grid-template-columns: 1fr;
   flex-direction: column;
   gap: 0.5rem;
-  border: 2px solid var(--text-color-dark);
+  border: 2px solid var(--frame-color-light);
   border-radius: var(--border-radius);
 }
  
-
+#email
 .login-actions {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   align-items: flex-end;
+  border: 2px solid var(--frame-color-light); 
 }
 
 .register-btn {

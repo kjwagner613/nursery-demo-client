@@ -112,7 +112,7 @@ const ProductForm = ({ onProductAdded = () => { } }) => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full border var(--text-color-dark); -300 rounded p-2"
+            className="w-full border var(--frame-color-light); -300 rounded p-2"
           />
           <select
             name="category"
