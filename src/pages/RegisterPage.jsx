@@ -56,7 +56,7 @@ const RegisterPage = () => {
           <input className="inputConfirmPass border border-[color:var(--secondary-brown)] rounded-[var(--border-radius)] p-4 ml-2" type="password" name="confirmPassword" placeholder="Confirm Password" onChange={handleChange} required />
           <button type="submit">Register</button>
         </form>
-        <p>Already have an account? <a href="/pages/loginpage">Login</a></p>
+        <p>Already have an account? Please Select Login Above.<a href=""></a></p>
       </div>
     </>
   );

@@ -65,7 +65,7 @@ const LoginPage = () => {
           </div>
           <button className="button-1 mt-4" type="submit">Login</button>
         </form>
-        <p>Don't have an account? <a href="/pages/registerpage">Register</a></p>
+        <p>Don't have an account? Please Select Register Above.<a href=""></a></p>
       </div>
     </>
   );
